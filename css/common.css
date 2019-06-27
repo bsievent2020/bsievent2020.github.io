@@ -265,6 +265,12 @@ header label {
   height: 100%;
 }
 
+
+.dimmerback-yellow {
+  background-color: rgba(147, 172, 10, 0.3);
+  height: 100%;
+}
+
 .header {
   padding: 0px 0 100px;
   /* padding: 0px 0 0px; */
@@ -670,6 +676,7 @@ figure {
   background-size: cover;
   background-attachment: fixed;
   background-position: 0% 50%;
+
   /* text-align: center; */
 }
 
