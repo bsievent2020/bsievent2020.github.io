@@ -490,7 +490,7 @@ WD	: CPG
   }
 
   .leftBox {
-    margin-top: 70px;
+    margin-top: 0px;
   }
 
   .boxBottom {
@@ -574,7 +574,7 @@ WD	: CPG
 
   .sliding_box_child .sb-image {
     width: 100%;
-    height: 275px;
+    height: 250px;
   }
 
   .sb-image img {
@@ -686,7 +686,7 @@ WD	: CPG
   .slidingBox {
     margin-right: -26px !important;
     margin-left: 0px !important;
-    margin-top: -135px;
+    margin-top: -90px;
   }
 
   .sliding_box_child {
@@ -722,7 +722,7 @@ WD	: CPG
   .slidingBox {
     margin-right: -60px !important;
     margin-left: 0px !important;
-    margin-top: -135px;
+    margin-top: -90px;
   }
 
   .sliding_box_child {
@@ -796,7 +796,7 @@ WD	: CPG
     padding: 55px 25px 0px;
   }
   .leftBox {
-    margin-top: 70px;
+    margin-top: 0px;
   }
   .featured-box-col2 h3 {
     text-align: center;

@@ -44,14 +44,14 @@ function headerFixedAfterScroll(header){
 }
 
 $(document).ready(function($){
-		if ($(".sliding_box_parent.slidingBox").length) {
+	/*	if ($(".sliding_box_parent.slidingBox").length) {
 			$(".slidingBox .sliding_box_child").on("mouseenter", function() {
 			$(".slidingBox .sliding_box_child").removeClass("active-elem");
 		
 			
 			$(this).addClass("active-elem");
 		  });
-		}
+		}*/
 		
 		
 		
