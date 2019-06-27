@@ -669,6 +669,7 @@ figure {
   background: #000 url(../images/section-bg2.png) top left repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: 0% 50%;
   /* text-align: center; */
 }
 
