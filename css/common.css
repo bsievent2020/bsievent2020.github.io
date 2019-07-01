@@ -1394,3 +1394,46 @@ button.unsubs:hover {
   text-align: justify;
   margin-bottom: 0px;
 }
+
+
+.actionbutton {
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #aece2d; -webkit-box-shadow: 0 0 3px #aece2d;color:white  }
+  50% { background-color: #ffce2d; -webkit-box-shadow: 0 0 40px #ffce2d;border-color:#ffce2d;color:white }
+  100% { background-color: #aece2d; -webkit-box-shadow: 0 0 3px #aece2d;;color:white }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #aece2d; -moz-box-shadow: 0 0 3px #aece2d;color:white }
+  50% { display:none;background-color: #ffce2d; -moz-box-shadow: 0 0 40px #ffce2d; border-color:#ffce2d;color:white}
+  100% { background-color: #aece2d; -moz-box-shadow: 0 0 3px #aece2d;color:white }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #aece2d; box-shadow: 0 0 3px #aece2d; ;color:white}
+  50% { display:none;background-color: #ffce2d; box-shadow: 0 0 40px #ffce2d; border-color:#ffce2d;color:white}
+  100% { background-color: #aece2d; box-shadow: 0 0 3px #aece2d; color:white}
+}
+
+@keyframes glowing {
+  0% { background-color: #aece2d; box-shadow: 0 0 3px #aece2d;color:white }
+  50% { display:none;background-color: #ffce2d; box-shadow: 0 0 40px #ffce2d; border-color:#ffce2d;color:white}
+  100% { background-color: #aece2d; box-shadow: 0 0 3px #aece2d;color:white}
+}
